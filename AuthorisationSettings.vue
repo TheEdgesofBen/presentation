@@ -361,8 +361,6 @@ export default {
                 return this.global.errorMessage("Error loading authorisation groups");
             }
 
-            res.forEach(() => {});
-
             if (res) {
                 this.authorisationGroups.push(...res);
 
